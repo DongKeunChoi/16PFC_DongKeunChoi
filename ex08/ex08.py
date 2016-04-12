@@ -1,11 +1,11 @@
 #-*-coding:cp949
 formatter = "%r %r %r %r"
 
-print formatter % (1, 2, 3, 4)
-print formatter % ("one", "two", "three", "four")
-print formatter % (True, False, False, True)
-print formatter % (formatter, formatter, formatter, formatter)
-print formatter % (
+print(formatter % (1, 2, 3, 4) )
+print(formatter % ("one", "two", "three", "four"))
+print(formatter % (True, False, False, True))
+print(formatter % (formatter, formatter, formatter, formatter))
+print(formatter % (
     "I had this thing.",
 # 나는 이것을 가지고있다.
     "That you could type up right.",
@@ -14,4 +14,4 @@ print formatter % (
 # 하지만 그것은 노래부를수없다,
     "So I said goodnight."
 # 그래서 나는 goodnight 이라고 말했다.
-)
+))
