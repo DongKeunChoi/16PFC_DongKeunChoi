@@ -1,0 +1,3 @@
+ex13.py 에서
+print("Your first varialbe is:") first ->print("Your first varialbe is:") ,first
+
