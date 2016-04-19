@@ -10,6 +10,8 @@ in_file = open(from_file)
 indate = in_file.read()
 
 print("The input file is %d bytes long" %exists(to_file))
+
+print("Dose the output file exist? %r"% exists(to_file))
 print("Ready, hit RETURN to continue, CTRL-C to abort")
 raw_input()
 
